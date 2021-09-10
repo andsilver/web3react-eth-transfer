@@ -7,7 +7,7 @@ import {
   FormControl,
   Snackbar
 } from "@material-ui/core";
-import Alert from "@material-ui/lab/Alert";
+import Alert, { Color } from "@material-ui/lab/Alert";
 import NumberFormat from "react-number-format";
 import { makeStyles } from "@material-ui/core/styles";
 import { ethers, utils } from 'ethers';
@@ -27,7 +27,7 @@ export const Transfer = (data) => {
   const [amount, setAmount] = useState("");
   const [address, setAddress] = useState("");
   const [alert, setAlert] = useState(false);
-  const [alertClass, setAlertClass] = useState("");
+  const [alertClass, setAlertClass] = useState<Color>("success");
   const [alertContent, setAlertContent] = useState("");
 
   const { library, account } = data
