@@ -1,0 +1,32 @@
+{
+  "name": "web3-react-example",
+  "scripts": {
+    "start": "next",
+    "build": "next build && next export"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@reduxjs/toolkit": "^1.6.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@web3-react/core": "^6.1.1",
+    "@web3-react/injected-connector": "^6.0.7",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "ethers": "^5.0.22",
+    "metamask-react": "^2.0.2",
+    "next": "^9.2.1",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.14.0",
+    "react-hook-form": "^6.15.1",
+    "react-number-format": "^4.4.4",
+    "react-redux": "^7.2.4",
+    "react-scripts": "4.0.3",
+    "typescript": "^3.7.5",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.5.0"
+  }
+}
